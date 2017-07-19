@@ -21,9 +21,11 @@
                   </div>
                   <div class="col-md-8">
                     <p>If you are a new member, please create an account with us first!</p>
-                    <b-button size='' variant="warning" href="" class="button-style">
-                      Sign-Up
-                    </b-button>
+                    <router-link to="/signup">
+                      <b-button size='' variant="warning" href="" class="button-style">
+                       Sign-Up
+                      </b-button>
+                    </router-link>
                   </div>
                 </div>
 

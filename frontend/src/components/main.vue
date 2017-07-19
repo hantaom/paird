@@ -21,9 +21,11 @@
         <h2 class="PageSubtitle">Find Your Mentor Today</h2>
       </div>
       <br></br>
-      <b-button class="GetStartedButton hvr-grow" size='lg' variant="primary" href="">
-          Get Started
-      </b-button>
+      <router-link to="/getstarted">
+        <b-button class="GetStartedButton hvr-grow" size='lg' variant="primary" href="">
+            Get Started
+        </b-button>
+      </router-link>
     </div>
     <router-view></router-view>
   </div>

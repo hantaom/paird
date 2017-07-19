@@ -36,9 +36,11 @@
                   </div>
                   <div class="col-md-8">
                     <p>Go to the "Find Mentor/Mentee" page and click "Find Match".</p>
-                    <b-button size='' variant="primary" href="" class="button-style">
-                      Find Mentor
-                    </b-button>
+                    <router-link to="/findmatch">
+                      <b-button size='' variant="primary" href="" class="button-style">
+                        Find Mentor
+                      </b-button>
+                    </router-link>
                   </div>
                 </div>
 
