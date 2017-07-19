@@ -91,7 +91,7 @@ export default {
   color: white;
 }
 .SignInButton {
-  margin-left: 340px;
+  margin-left: 200px;
   font-weight: bold;
 }
 .SignUpButton {
